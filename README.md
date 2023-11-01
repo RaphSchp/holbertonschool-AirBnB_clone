@@ -2,7 +2,7 @@
     <h1>🏡 AirBnB clone - The console 🧑‍💻 </h1>
 </div>
 
-![Holberton School Logo](holbertonschool-AirBnB_clone/assets/hbnb.png)
+![Holberton School Logo](/assets/hbnb.png)
 
 ![UBUNTU](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)![PYTHON](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
@@ -16,7 +16,7 @@ This project is to understand what is Python and how use it, it was made in the 
 ## Welcome to the AirBnB clone project!
 Before starting, please read the AirBnB concept page.
 
-![HBNB project overview](https://youtu.be/E12Xc3H2xqo)
+* [HBNB project overview](https://youtu.be/E12Xc3H2xqo)
 
 
 ### First step: Write a command interpreter to manage your AirBnB objects.
@@ -103,7 +103,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 Your shell should work like this in interactive mode:
 
-```shell
+```
 $ ./console.py
 (hbnb) help
 
@@ -119,7 +119,7 @@ $
 
 But also in non-interactive mode: (like the Shell project in C)
 
-```shell
+```
 $ echo "help" | ./console.py
 (hbnb)
 
@@ -144,4 +144,4 @@ All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest
 
 ![SCHEME](/assets/scheme.png)
 
-![HBNB - The console](https://youtu.be/p00ES-5K4C8)
+* [HBNB - The console](https://youtu.be/p00ES-5K4C8)

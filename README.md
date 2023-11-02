@@ -10,7 +10,10 @@
 
 This project is to understand what is Python and how use it, it was made in the software development program of [Holberton School](https://www.holbertonschool.fr/).
 
-# Background Context
+<details>
+<summary> <strong> 📚Background Context </strong> </summary>
+<br>
+
 ## Welcome to the AirBnB clone project!
 Before starting, please read the AirBnB concept page.
 
@@ -109,8 +112,8 @@ Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
 
-(hbnb) 
-(hbnb) 
+(hbnb)
+(hbnb)
 (hbnb) quit
 $
 ```
@@ -124,7 +127,7 @@ $ echo "help" | ./console.py
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
-(hbnb) 
+(hbnb)
 $
 $ cat test_help
 help
@@ -135,7 +138,7 @@ $ cat test_help | ./console.py
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
-(hbnb) 
+(hbnb)
 $
 ```
 All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest discover tests" | bash`
@@ -143,3 +146,15 @@ All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest
 ![SCHEME](/assets/scheme.png)
 
 * [HBNB - The console](https://youtu.be/p00ES-5K4C8)
+
+</details>
+
+## ✍️Authors
+
+* **Benjamin Marchal** <a href="https://github.com/Groinkb" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
+* **Raphael Schopfer** <a href="https://github.com/RaphSchp" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
+* **Holberton Thonon-les-bains** <a href="https://www.holbertonschool.fr/campus/thonon-les-bains" rel="nofollow"><img align="school" alt="holberton" src="https://holberton.anahuac.mx/wp-content/uploads/ddd.png" height="24" /></a>
+
+## 📜License
+
+This program is distributed under the terms of the Holberton license.

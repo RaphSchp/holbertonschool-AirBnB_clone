@@ -6,11 +6,16 @@
 
 ![UBUNTU](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)![PYTHON](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
-## Description
+## 📌Description
 
 This project is to understand what is Python and how use it, it was made in the software development program of [Holberton School](https://www.holbertonschool.fr/).
 
-# Background Context
+
+<!--------------------------------------------------------------------------------------------------------------------------->
+<details>
+<summary> <strong> 📚Background Context </strong> </summary>
+<br>
+
 ## Welcome to the AirBnB clone project!
 Before starting, please read the AirBnB concept page.
 
@@ -109,8 +114,8 @@ Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
 
-(hbnb) 
-(hbnb) 
+(hbnb)
+(hbnb)
 (hbnb) quit
 $
 ```
@@ -124,7 +129,7 @@ $ echo "help" | ./console.py
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
-(hbnb) 
+(hbnb)
 $
 $ cat test_help
 help
@@ -135,7 +140,7 @@ $ cat test_help | ./console.py
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
-(hbnb) 
+(hbnb)
 $
 ```
 All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest discover tests" | bash`
@@ -143,3 +148,139 @@ All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest
 ![SCHEME](/assets/scheme.png)
 
 * [HBNB - The console](https://youtu.be/p00ES-5K4C8)
+
+</details>
+<!--------------------------------------------------------------------------------------------------------------------------->
+
+# AirBnb clone - The Console
+
+## Description
+
+This repository is the starting point for our ambitious AirBnB Clone project. Here, we've built a command-line interpreter to manage AirBnB objects, laying the foundation for a full web application. You'll find Python scripts, unit tests, and comprehensive documentation that demonstrate our commitment to quality and best practices.
+
+<hr>
+
+## Files
+
+```
+.
+├── AUTHORS
+├── README.md
+├── console.py
+├── file.json
+├── models
+│   ├── __init__.py
+│   ├── amenity.py
+│   ├── base_model.py
+│   ├── city.py
+│   ├── engine
+│   │   ├── __init__.py
+│   │   └── file_storage.py
+│   ├── place.py
+│   ├── review.py
+│   ├── state.py
+│   └── user.py
+└── tests
+    ├── __init__.py
+    └── test_models
+        ├── __init__.py
+        ├── test_amenity.py
+        ├── test_base_model.py
+        ├── test_city.py
+        ├── test_engine
+        │   ├── __init__.py
+        │   └── test_file_storage.py
+        ├── test_place.py
+        ├── test_review.py
+        ├── test_state.py
+        └── test_user.py
+```
+<hr>
+
+## Installation
+
+**Clone this repository:**
+```
+root@user$ git clone https://github.com/RaphSchp/holbertonschool-AirBnB_clone.git
+```
+**In terminal navigate to root directory and run this command:**
+```
+holbertonschool-AirBnB_clone$ ./console.py
+```
+**Interpreter will begin and prompt user:**
+```
+(hbnb)
+```
+<hr>
+
+## Using Command Interpreter
+---
+| Commands  | Sample Usage                                  | Functionality                              |
+| --------- | --------------------------------------------- | ------------------------------------------ |
+| `help`    | `help`                                        | displays all commands available            |
+| `create`  | `create <class>`                              | creates new object (ex. a new User, Place) |
+| `update`  | `User.update('123', {'name' : '(NAME)'})`     | updates attribute of an object             |
+| `destroy` | `User.destroy('123')`                         | destroys specified object                  |
+| `show`    | `User.show('123')`                            | retrieve an object from a file, a database |
+| `all`     | `User.all()`                                  | display all objects in class               |
+| `quit`    | `quit`                                        | exits                                      |
+<hr>
+
+## Interactive and Non-Interactive
+Interactive Mode
+```
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb)
+(hbnb)
+(hbnb) quit
+$
+```
+Non-Interactive Mode
+```
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
+```
+
+## Testing
+To test the files, classes, and functions in this project use the following commands:
+```
+python3 -m unittest discover tests
+```
+You can also test file by file by using this command:
+```
+python3 -m unittest tests/test_models/test_base_model.py
+```
+<hr>
+
+## ✍️Authors
+
+* **Benjamin Marchal** <a href="https://github.com/Groinkb" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
+* **Raphael Schopfer** <a href="https://github.com/RaphSchp" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
+* **Holberton Thonon-les-bains** <a href="https://www.holbertonschool.fr/campus/thonon-les-bains" rel="nofollow"><img align="school" alt="holberton" src="https://holberton.anahuac.mx/wp-content/uploads/ddd.png" height="24" /></a>
+
+## 📜License
+
+This program is distributed under the terms of the Holberton license.

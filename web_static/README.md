@@ -62,7 +62,7 @@ At the end of this project, you are expected to be able to <a href="https://fs.b
 
 # More Info
 
-<img src="holbertonschool-AirBnB_clone/assets/scheme2.png" alt="Scheme2">
+<img src="https://github.com/RaphSchp/holbertonschool-AirBnB_clone/blob/main/assets/scheme2.png?raw=true" alt="Scheme2">
 
 ## Author
 

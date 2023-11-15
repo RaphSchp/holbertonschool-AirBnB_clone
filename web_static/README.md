@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>📄 Advanced HTML 🛠️</h1>
+    <h1>✨AirBnB clone - Web static 🏠</h1>
 </div>
 
 ![Holberton School Logo](https://images.squarespace-cdn.com/content/v1/5a4bfe8bf09ca4228ceca3b7/1539139199598-ANH454IHZI1OKWONKRXY/logo.jpg?format=1500w)
@@ -62,7 +62,7 @@ At the end of this project, you are expected to be able to <a href="https://fs.b
 
 # More Info
 
-<img src="assets/scheme2.png" alt="Scheme2">
+<img src="holbertonschool-AirBnB_clone/assets/scheme2.png" alt="Scheme2">
 
 ## Author
 

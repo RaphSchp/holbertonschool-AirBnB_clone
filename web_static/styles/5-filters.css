@@ -12,12 +12,14 @@
 	height: 100%;
 	width: 25%;
 	border-right: 1px #DDDDDD solid;
-	margin-left: 60px;
+	padding-left: 40px;
+    position: relative;
 }
 .amenities {
 	height: 100%;
 	width: 25%;
-	margin-left: 60px;
+	padding-left: 40px;
+    position: relative;
 }
 button {
 	font-size: 18px;

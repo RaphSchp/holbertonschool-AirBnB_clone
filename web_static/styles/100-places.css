@@ -81,12 +81,50 @@ article {
 	width: 390px;
 }
 
-article h2 {
+div .flex-container article h2 {
 	font-size: 30px;
 	margin: 0px 0px 0px auto;
 }
 
 .places .amenities h2 {
-    font-size: 16px;
-    border-bottom: #DDDDDD solid 1px;
+    padding: 5% 0 5% 0;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #DDDDDD;
 }
+
+.places .amenities>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.places .amenities>ul li {
+    background-size: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    background-repeat: no-repeat;
+    line-height: 5px;
+}
+
+div.amenities ul li.pet {
+	background-image: url('../images/pet.png');
+}
+
+div.amenities ul li.tv {
+	background-image: url('../images/tv.png');
+}
+
+div.amenities ul li.spa {
+	background-image: url('../images/spa.png');
+}
+
+div.amenities ul li.wifi {
+	background-image: url('../images/wifi.png');
+}
+
+div.amenities ul li.bar {
+	background-image: url('../images/bar.png');
+}
+
